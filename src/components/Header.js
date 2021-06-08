@@ -4,7 +4,7 @@ import MenuIcon from '@material-ui/icons/Menu';
 import CloseIcon from '@material-ui/icons/Close';
 
 const Header = () => {
-  const [burgerStatus, setBurgerStatus] = useState(true);
+  const [burgerStatus, setBurgerStatus] = useState(false);
 
   return (
     <Container>
